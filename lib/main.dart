@@ -65,7 +65,7 @@ class MyHomePage extends StatelessWidget {
           ScaffoldMessenger.of(context).showSnackBar(
               SnackBar(
                 content: Text('Button pressed!'),
-                duration: Duration(seconds: 2), // Adjust the duration as needed
+                duration: Duration(seconds: 2), 
               ),
           );
         },
